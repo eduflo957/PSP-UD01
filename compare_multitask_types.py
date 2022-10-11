@@ -1,8 +1,9 @@
-import sys
-sys.path.append('./util/')
+#Quito estas 2 líneas porque he metido el util a lo bruto
+#import sys
+#sys.path.append('./util/')
 import logging
 
-from logs_tools import logcfg
+from util import logcfg
 
 import time
 from multiprocessing import Process
